@@ -1,0 +1,96 @@
+﻿
+/*comments css*/
+body {
+    background-image: url("images2/comment.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/*div class*/
+.form-container {
+    height: 900px;
+    width: 650px;
+    margin: 50px auto;
+    color: black;
+    padding: 50px 30px;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.form-container input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+
+textarea{
+    border:none;
+    border-bottom:1px solid black;
+    background:transparent;
+    outline:none;
+    height:70px;
+    color:black;
+    width:100%;
+    margin-bottom:20px;
+}
+
+/*fieldset class*/
+.field1{
+    padding:20px;
+    border-radius:5%;
+}
+
+/*fieldset class*/
+.field2 {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: greenyellow;
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.form-container::before {
+    content: '';
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255,255,255,0.5);
+    filter: blur(2px);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    font-family: verdana;
+    font-size: 14px;
+}
+
+table{
+    padding:15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button {
+    font-size: 25px;
+    background-color: lightgreen;
+}

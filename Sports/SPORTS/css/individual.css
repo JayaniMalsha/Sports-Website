@@ -1,0 +1,53 @@
+﻿/*div class*/
+.Individual {
+    background-color: white;   
+}
+
+table {
+    margin: 30px 40px 30px 30px;   
+}
+
+h1.h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria Math;
+    color: black;
+}
+
+td {
+    padding: 18px;
+}
+
+h2 {
+    text-align: left;
+    background-color:chartreuse;
+}
+
+p {
+    text-align: justify;
+    color:black;
+}
+
+img.border {
+    border: 2px solid black;
+    padding:5px;
+}
+
+/*back to the top button class*/
+.arrow {
+    text-align: center;
+    border: solid;
+    font-size: 30px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: lawngreen;
+    color:lightgreen;
+}
+
+h3{
+    color:white;
+}
+
+.para{
+    font-size:20px;
+}

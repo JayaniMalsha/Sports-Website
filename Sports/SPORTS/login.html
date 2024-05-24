@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> login page </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        body {
+            background-image: url("images/login.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        fieldset {
+            border-radius: 10%;
+            text-align: center;
+            border: solid;
+            background-color: aquamarine;
+            font-size: 20px;
+            margin: 25px 100px 0px 100px;
+            padding: 75px 400px 75px 400px;
+        }
+
+        button {
+            background-color: lawngreen;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <!--navigation bar-->
+
+        <nav>
+
+            <label class="logo">
+                <!--create web site logo-->
+                <img src="images/logo.jpg" alt="website logo" width="100" height="60">    Sport X
+            </label>
+
+            <ul>
+                <!--create unordered list of navigation bar-->
+
+                <li class="dropdown">
+                    <!--create dropdown navigation bar-->
+                    <a href="main.html">HOME</a>
+                    <div class="dropdown-content">
+                        <a href="TeamSports.html">Team Sports</a>
+                        <a href="individual.html">Individual Sports</a>
+                        <a href="dualsport.html">Dual Sports</a>
+                        <a href="Exsports.html">Adventure and Extreme Sports</a>
+                    </div>
+                <li><a href="comments.html">COMMENTS</a></li>
+                <li><a href="cart.html">SHOP</a></li>
+                <li><a href="quiz.html">QUIZ</a></li>
+                <li><a href="Sitemap.html">SITE MAP</a></li>
+                <li><a href="Gallery.html">GALLERY</a></li>
+                <li><a href="s_details.html">ABOUT US</a></li>
+                <li><a href="login.html"  class="active">LOGIN</a></li>
+                <li><a href="additional.html"><i class="fa-brands fa-rocketchat"></i></a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <br><br>
+    <fieldset>
+        <!--user login page-->
+        <div>
+            <h1 style="font-size:40px;">USER LOGIN</h1>
+        </div><br><br>
+
+        <form action="mailto:jayani.20221756@iit.ac.lk" method="post" enctype="text/plain">
+
+            <div>
+
+                <label for="email"><b>Username</b></label>
+                <input type="email" placeholder="Enter Email" name="email" id="email" size="40" required><br><br>
+
+                <label for="pwd"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="pwd" id="pwd" minlength="6" size="40" required><br><br>
+
+                <button type="submit">Login</button>
+
+            </div>
+
+            <br>
+            <div>
+                <a href="#">Forgot password?</a>
+            </div>
+
+        </form>
+    </fieldset>
+    <br><br>
+
+    <div>
+        <a href="main.html" style="text-align:center;color:white;" ><h3>🔙 BACK TO HOME</h3></a>
+    </div>
+<footer>
+        <div class="footerContainer">
+
+            <h1 class="follow">Follow us:</h1><br><br>
+
+            <div class="socialIcons"><!--Social media icon-->
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="footerNav"> <!--web site link-->
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="comments.html">Comments</a></li>
+                    <li><a href="cart.html">Shop</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="Sitemap.html">Site Map</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="s_details.html">About us</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footerBottom"> <!--web designer's details-->
+            <p>
+                Copyright &copy;2023; Designed by <br><br>
+                <span class="designer">
+                    <a href="malsha.html">Jayani Malsha</a>
+                </span>
+            </p>
+        </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Sitemap</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css\footer.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<style>
+		h1 {
+			text-align: center;
+			margin-top: 30px; /* Add some margin to separate it from the navbar */
+		}
+
+		/* Atributes of the circle */
+		.circle {
+			fill: lightgreen;
+			stroke: black;
+			stroke-width: 4px; /* Increase the stroke width to make the outline larger */
+			transition: stroke-color 0.3s;  /* Add a transition effect to smooth the color change */
+		}
+
+		/* Atributes of the text */
+		.text {
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			fill: darkblue; /* colour darkblue */
+			text-anchor: middle;
+			dominant-baseline: central; /* Center the text vertically within the circle */
+			pointer-events: none; /* Allow the circle element to receive user interactions */
+		}
+
+		/* Define the styles for the line */
+		.line {
+			stroke: black;
+			stroke-width: 3px;
+		}
+
+		/* Define the styles when the circle is hovered on */
+		.circle:hover {
+			stroke: yellow;
+		}
+
+		/* Define the styles when the circle is clicked on */
+		.circle:active {
+			stroke: lightblue;
+		}
+	</style>
+	<link rel="stylesheet" href="css\navlist.css">
+</head>
+<body>
+	<div class="navbar"><!--navigation bar-->
+		<nav>
+			<label class="logo"><!--create web site logo-->
+				<img src="images\logo.jpg" alt="website logo" width="100" height="60"/> Sport X
+			</label>
+			<ul>
+				<!--create unordered list of navigation bar-->
+
+				<li class="dropdown">
+					<!--create dropdown navigation bar-->
+					<a href="main.html">HOME</a>
+					<div class="dropdown-content">
+						<a href="TeamSports.html">Team Sports</a>
+						<a href="individual.html">Individual Sports</a>
+						<a href="dualsport.html">Dual Sports</a>
+						<a href="Exsports.html">Adventure and Extreme Sports</a>
+					</div>
+				<li><a href="comments.html">COMMENTS</a></li>
+				<li><a href="cart.html">SHOP</a></li>
+				<li><a href="quiz.html">QUIZ</a></li>
+				<li><a href="Sitemap.html"  class="active">SITE MAP</a></li>
+				<li><a href="Gallery.html">GALLERY</a></li>
+				<li><a href="s_details.html">ABOUT US</a></li>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="additional.html"><i class="fa-brands fa-rocketchat"></i></a></li>
+			</ul>
+		</nav>
+	</div>
+	<h1>Sitemap</h1>
+	<svg width="100%" height="800px">
+		<!-- Home circle starts here -->
+		<a href="main.html">
+			<circle class="circle" cx="50%" cy="30%" r="40" />
+			<text class="text" x="50%" y="30%">Home</text>
+		</a>
+		<!-- Home circle ends here -->
+		<line class="line" x1="50%" y1="35%" x2="50%" y2="45%"></line>
+		<line class="line" x1="26%" y1="40%" x2="80%" y2="40%"></line>
+
+		<!-- Gallery circle starts here -->
+		<a href="Gallery.html">
+			<circle class="circle" cx="80%" cy="50%" r="40" />
+			<text class="text" x="80%" y="50%">Gallery</text>
+		</a>
+		<!-- Gallery circle ends here -->
+
+		<!-- Sitemap circle starts here -->
+		<a href="Sitemap.html">
+			<circle class="circle" cx="74%" cy="50%" r="40" />
+			<text class="text" x="74%" y="50%">Sitemap</text>
+		</a>
+		<!-- Sitemap circle ends here -->
+
+		<!-- Quiz circle starts here -->
+		<a href="quiz.html">
+			<circle class="circle" cx="68%" cy="50%" r="40" />
+			<text class="text" x="68%" y="50%">Quiz</text>
+		</a>
+		<!-- Quiz circle starts here -->
+
+		<!-- Query Form Circle Starts here -->
+		<a href="comments.html">
+			<circle class="circle" cx="62%" cy="50%" r="40" />
+			<text class="text" x="62%" y="49%">Query</text>
+			<text class="text" x="62%" y="52%">Form</text>
+		</a>
+		<!-- Query Form Circle Starts here -->
+		<!-- Shop Circle starts here -->
+
+		<a href="cart.html">
+			<circle class="circle" cx="56%" cy="50%" r="40" />
+			<text class="text" x="56%" y="50%">Shop</text>
+		</a>
+		<!-- Shop Circle ends here -->
+
+		<!-- Student Info circle starts here -->
+		<a href="s_details.html">
+			<circle class="circle" cx="50%" cy="50%" r="40" />
+			<text class="text" x="50%" y="49%">Student</text>
+			<text class="text" x="50%" y="52%">Info</text>
+		</a>
+		<!-- Student Info circle ends here -->
+
+		<!-- Exetreme Sports circle starts here -->
+		<a href="Exsports.html">
+			<circle class="circle" cx="44%" cy="50%" r="40" />
+			<text class="text" x="44%" y="49%">Exetreme</text>
+			<text class="text" x="44%" y="52%">Sports</text>
+		</a>
+		<!-- Exetreme Sports circle ends here -->
+
+		<!-- Dual Sports circle starts here -->
+		<a href="dualsport.html">
+			<circle class="circle" cx="38%" cy="50%" r="40" />
+			<text class="text" x="38%" y="49%">Dual</text>
+			<text class="text" x="38%" y="52%">Sports</text>
+		</a>
+		<!-- Dual Sports circle ends here -->
+
+		<!-- Individual Sports circle starts here -->
+		<a href=" individual.html">
+			<circle class="circle" cx="32%" cy="50%" r="40" />
+			<text class="text" x="32%" y="49%">Individual</text>
+			<text class="text" x="32%" y="52%">Sports</text>
+		</a>
+		<!-- Individual Sports circle ends here -->
+
+		<!-- Team Sports circle starts here -->
+		<a href="TeamSports.html">
+			<circle class="circle" cx="26%" cy="50%" r="40" />
+			<text class="text" x="26%" y="48%">Team</text>
+			<text class="text" x="26%" y="51.4%">Sports</text>
+		</a>
+		<!-- Team Sports circle ends here -->
+
+		<line class="line" x1="26%" y1="40%" x2="26%" y2="45%"></line>
+		<line class="line" x1="32%" y1="40%" x2="32%" y2="45%"></line>
+		<line class="line" x1="38%" y1="40%" x2="38%" y2="45%"></line>
+		<line class="line" x1="44%" y1="40%" x2="44%" y2="45%"></line>
+		<line class="line" x1="56%" y1="40%" x2="56%" y2="45%"></line>
+		<line class="line" x1="62%" y1="40%" x2="62%" y2="45%"></line>
+		<line class="line" x1="68%" y1="40%" x2="68%" y2="45%"></line>
+		<line class="line" x1="74%" y1="40%" x2="74%" y2="45%"></line>
+		<line class="line" x1="80%" y1="40%" x2="80%" y2="45%"></line>
+	</svg>
+	<footer>
+		<div class="footerContainer">
+			<h1 class="follow">Follow us:</h1><br><br>
+			<div class="socialIcons">
+				<a href=""><i class="fa-brands fa-facebook"></i></a>
+				<a href=""><i class="fa-brands fa-instagram"></i></a>
+				<a href=""><i class="fa-brands fa-twitter"></i></a>
+				<a href=""><i class="fa-brands fa-google-plus"></i></a>
+				<a href=""><i class="fa-brands fa-youtube"></i></a>
+			</div>
+			<div class="footerNav">
+				<ul>
+					<li><a href="main.html">Home</a></li>
+					<li><a href="comments.html">Comments</a></li>
+					<li><a href="cart.html">Shop</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="Sitemap.html">Site Map</a></li>
+					<li><a href="Gallery.html">Gallery</a></li>
+					<li><a href="s_details.html">About us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footerBottom">
+			<!--web designer's details-->
+			<p>
+				Copyright &copy;2023; Designed by <br><br>
+				<span class="designer">
+					<a href="malsha.html">Jayani Malsha</a> 
+				</span>
+			</p>
+		</div>
+
+	</footer>
+</body>
+</html>
